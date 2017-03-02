@@ -20,6 +20,7 @@ function wordHistogram(string) {
       word += string[char];
     }
   }
-console.log(histogram);
+return histogram;
 }
-wordHistogram('to be or not to be be be');
+answer = wordHistogram('to be or not to be be be');
+console.log(answer);
