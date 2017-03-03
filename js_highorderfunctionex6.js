@@ -20,7 +20,7 @@ var people = [
 // Print out 'Good Job, {{name}}!' for each person's name, one on a line.
 
 function names(n) {
-    console.log('Good job, ' + n);
+    console.log('Good job, ' + n + '!');
 }
 
 people.forEach(names);
