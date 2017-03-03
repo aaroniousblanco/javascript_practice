@@ -7,3 +7,13 @@
 // > strJoin(['Hello', 'and', 'goodbye'], ' ')
 // `Hello and goodbye`
 // You may not use the array built-in join method. You may use the reduce method.
+
+var strs = ['stout', 'IPA', 'barleywine'];
+var sep = ', ';
+
+function strJoin(currentValue, name) {
+    return currentValue + sep + name;
+}
+
+var nameList = strs.reduce(strJoin);
+console.log(nameList);
