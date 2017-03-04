@@ -9,3 +9,10 @@ var products = [
   { name: 'Tennis Balls', price: 9.00 }
 ];
 // Sort the array by price.
+
+function compare(item1, item2) {
+  return item1.price - item2.price;
+}
+
+newArray = products.sort(compare);
+console.log(newArray);
