@@ -28,7 +28,7 @@ function rockPaperScissors(player1, player2) {
   else if (player2 === 'paper' && player1 === 'rock') {
     console.log("Player 2 wins");
   }
-  else if (player1 === 'paper' && player2 === 'rock') {
+  else {
     console.log("Player 1 wins");
   }
 }
